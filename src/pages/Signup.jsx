@@ -102,6 +102,7 @@ const Signup = () => {
                                     <select
                                         name="role"
                                         value={formData.role}
+                                        onChange={handleInputChange}
                                         className="text-textColor font-semibold text-[15px] leading-7 px-4 py-3 focus:outline-none"
                                     >
                                         <option value="patient">
